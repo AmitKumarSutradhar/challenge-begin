@@ -14,6 +14,9 @@ body{
 .flex{
     display: flex;
 }
+.cards{
+ justify-content: space-between;
+}
 .btn-primary{
 
     color: #ffffff;
@@ -34,6 +37,9 @@ body{
     align-items: center;
     text-align: center;
 }
+
+/* Current Target CSS*/
+
 
 /*Footer CSS*/
 footer{
