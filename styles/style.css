@@ -8,7 +8,7 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 a,p{
-    line-height: 30px;
+    line-height: 35px;
 }
 
 /* Reusable CSS */
@@ -39,7 +39,7 @@ section{
     margin: 8px 0;
 }
 .section-sub-title{
-    color: #b5b7bb;
+    color: #0D1321;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -54,11 +54,54 @@ section{
     background-size: cover;
     padding: 35px;
 }
+#header h2{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+#header p{
+    margin: 10px 0;
+}
 .hero-content{
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
+/*  Why web development CSS */
+#why-web-development .container{
+    padding: 50px;
+}
+#why-web-development .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+#why-web-development .item{
+    display: flex;
+    gap: 32px;
+}
+#why-web-development h3{
+    font-size: 24px;
+}
+#why-web-development button{
+    color: #000000;
+    font-size: 20px;
+    background: white;
+    padding: 12px 20px;
+}
+
+
+
+/* Inspiration CSS*/
+.inspiration-video{
+    padding: 32px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+
 
 /* Current Target CSS*/
 .card{
