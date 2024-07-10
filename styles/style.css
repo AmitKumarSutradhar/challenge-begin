@@ -43,7 +43,7 @@ section{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin: 8px 0;
+    margin: 12px 0;
 }
 
 /*Header CSS*/
@@ -81,9 +81,14 @@ section{
 #why-web-development .item{
     display: flex;
     gap: 32px;
+    padding: 45px;
+    margin-bottom: 32px;
 }
 #why-web-development h3{
     font-size: 24px;
+}
+#why-web-development p{
+    margin: 16px 0;
 }
 #why-web-development button{
     color: #000000;
@@ -152,6 +157,10 @@ section{
 #support input{
     color: white;
     padding: 10px 20px;
+}
+#support button{
+    padding: 10px 20px;
+    /*margin: 5px ;*/
 }
 
 
