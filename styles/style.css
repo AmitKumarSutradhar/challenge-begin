@@ -7,6 +7,11 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+a,p{
+    line-height: 30px;
+}
+
+/* Reusable CSS */
 .container{
     max-width: 1140px;
     margin: auto;
@@ -16,11 +21,29 @@ body{
 }
 .cards{
  justify-content: space-between;
+    gap: 24px;
 }
 .btn-primary{
     color: #ffffff;
     background-color: black;
     padding: 21px 24px;
+    margin: 5px 0;
+}
+section{
+    padding: 50px 0;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 8px 0;
+}
+.section-sub-title{
+    color: #b5b7bb;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 8px 0;
 }
 
 /*Header CSS*/
@@ -38,12 +61,54 @@ body{
 }
 
 /* Current Target CSS*/
+.card{
+    padding: 40px;
+    border-radius: 16px;
+}
+.card.card-html{
+    background-color: #fff6f4;
+}
+.card.card-css{
+    background-color: #f2f6fe;
+}
+.card.card-javascript{
+    background-color: #fffdf2;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+}
 
+.card a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 /* Support Section CSS*/
-#support{
+#support .container{
     background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 64px 0;
+}
+
+#support h2.section-title{
+    color: white;
+}
+#support p.section-sub-title{
+    color: white;
+}
+#support form{
+    display: flex;
+    justify-content: center;
+}
+#support input{
+    color: white;
+    padding: 10px 20px;
 }
 
 
@@ -53,4 +118,6 @@ footer{
 }
 .footer-content{
     justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
 }
