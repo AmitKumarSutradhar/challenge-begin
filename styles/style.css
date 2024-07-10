@@ -18,7 +18,6 @@ body{
  justify-content: space-between;
 }
 .btn-primary{
-
     color: #ffffff;
     background-color: black;
     padding: 21px 24px;
@@ -39,6 +38,13 @@ body{
 }
 
 /* Current Target CSS*/
+
+
+
+/* Support Section CSS*/
+#support{
+    background-image: url("../assets/handshake.jpg");
+}
 
 
 /*Footer CSS*/
